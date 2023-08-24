@@ -39,5 +39,5 @@ function showList(array) {
 // Escribe tu solución aquí
 // Sugerencia de cómo mostrar el array => showList(strangeArray)
 const stringsArray = strangeArray.filter(value => typeof value === 'string')
-const orderedStringsArray = stringsArray.sort((a, b) => a.localeCompare(b))
-showList(orderedStringsArray)
+stringsArray.sort((a, b) => a.localeCompare(b))
+showList(stringsArray)
